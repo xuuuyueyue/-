@@ -1,0 +1,31 @@
+.searchback {
+  display: none;
+}
+
+.history {
+  display: none;
+  width: 390px;
+  margin: 0 auto;
+  transform: translateY(-905px);
+  background-color: rgb(239 235 235);
+  height: 230px;
+  display: none;
+  z-index: 12;
+}
+
+.history p {
+  font-size: 15px;
+}
+
+.history1 {
+  width: 390px;
+}
+
+.history span {
+  background-color: #dad8d8;
+  border-radius: 10px;
+  padding: 0px 8px;
+  margin: 0 3px;
+  font-size: 13px;
+  color: #635f5f;
+}

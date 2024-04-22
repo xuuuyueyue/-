@@ -1,0 +1,29 @@
+.tabbottom {
+  position: absolute;
+  top: 810px;
+  margin: 0 auto;
+  width: 390px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.tabbottom div {
+  width: 78px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 30px;
+}
+
+.tabbottomactive {
+  color: rgb(238, 35, 35);
+  font-weight: 600;
+}
+
+.tabbottom .post {
+  background-color: #df3737;
+  color: white;
+  border-radius: 15px;
+  font-size: 14px;
+}
