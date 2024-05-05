@@ -1,0 +1,131 @@
+.zcenter {
+  display: none;
+}
+
+.zcenterpart1 {
+  height: 67px;
+  position: relative;
+}
+
+.zcenterpart1 .tab {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.zcenterpart1 .tabright {
+  position: absolute;
+  top: 10px;
+  left: 220px;
+  width: 156px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.zcenterpart2 {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.zcenterpart2 .zcenterpart21 {
+  overflow: hidden;
+  top: 10%;
+  border-radius: 66px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 2%;
+  cursor: pointer;
+}
+
+.zcenterpart2 .zcenterpart22 {
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.zcenterpart22 :nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.zcenterpart22 :nth-child(2) {
+  font-size: 10px;
+}
+
+
+.zcenterpart21 img {
+  width: 65px;
+  height: 65px;
+}
+
+.zcenterpart31 {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 113px;
+  background-color: pink;
+}
+
+.zcenterpart311 {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: left
+}
+
+.zcenterpart311 span {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.zcenterpart312 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.zcenterpart312>span {
+  border: 1px #f8aa7b solid;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.zcenterpart312 span strong {
+  height: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.zcenterpart33 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.zcenterpart331 {
+  padding: 0 9px;
+  margin-top: 13px;
+  width: 300px;
+  display: flex;
+  justify-content: left;
+}
+
+.zcenterpart331 span {
+  width: 53px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}

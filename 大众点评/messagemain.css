@@ -1,0 +1,56 @@
+.message {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.recommendall {
+  width: 390px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.messagetri {
+  display: flex;
+  justify-content: space-around;
+}
+
+.messagetri div {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  font-size: 13px;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
+  color: #8d8d8d;
+}
+
+.recommend1 {
+  width: 178px;
+  margin: 0px 8px;
+}
+
+.recommend2 {
+  display: inline-block;
+  width: 178px;
+  height: 257px;
+  border-radius: 5px;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.recommend2 img {
+  width: 178px;
+  height: 200px;
+  background-color: red;
+}
+
+.recommend2 p {
+  font-size: 10px;
+  width: 178px;
+}

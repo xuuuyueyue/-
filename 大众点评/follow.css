@@ -1,0 +1,96 @@
+.messagedetail31 {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.messagedetail311 {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  border-radius: 30px;
+  background-color: blue;
+}
+
+.messagedetail312 {
+  width: 330px;
+  height: 50px;
+  background-color: palegreen;
+}
+
+.messagedetail3121 {
+  width: 330px;
+  height: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: yellow;
+}
+
+.messagedetail3122 {
+  width: 330px;
+  height: 25px;
+  font-size: 13px;
+  background-color: green;
+}
+
+.FFollow {
+  display: none;
+}
+
+
+.wodemingzi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wodemingzi :nth-child(2) {
+  width: 300px;
+  text-align: center;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.follow1 {
+  height: 50px;
+  display: flex;
+  margin: 13px 0;
+  justify-content: space-around;
+}
+
+.follow11 {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  border-radius: 30px;
+  background-color: blue;
+}
+
+.follow12 {
+  width: 290px;
+  height: 50px;
+  background-color: palegreen;
+}
+
+.follow121 {
+  width: 290px;
+  height: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: yellow;
+}
+
+.follow122 {
+  width: 290px;
+  height: 25px;
+  font-size: 13px;
+  background-color: green;
+}
+
+.follow13 {
+  height: 40px;
+  width: 50px;
+}

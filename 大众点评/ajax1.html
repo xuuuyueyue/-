@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios/min.js"></script>
+  <script>
+    axios({
+      url: 'http://hmajax.itheima.net/api/city',
+      //get默认的不用写
+      //method请求方法（post提交数据)
+      // data：{
+
+      // }
+      params: {
+        pname: '河北省'
+      }
+    }).then(result => {
+      console.log(result)
+    })
+  </script>
+</body>
+
+</html>

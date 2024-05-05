@@ -1,0 +1,155 @@
+.logo {
+  margin: 0 auto;
+  position: absolute;
+  top: 119px;
+  left: -49px;
+  width: 390px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.logo img {
+  transform: scale(0.6);
+  position: absolute;
+  left: -6px;
+  top: -35px;
+
+}
+
+pre p {
+  position: absolute;
+  top: 205px;
+  font-size: 15px;
+  left: 84px;
+  font-weight: 600;
+  font-family: heiti
+}
+
+.phone {
+  position: absolute;
+  top: 422px;
+  left: 122px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.phoneex {
+  font-size: 11px;
+  color: rgb(179 169 169);
+  position: absolute;
+  top: 470px;
+  left: 139px;
+}
+
+.denglu {
+  margin: 0 auto;
+  background-color: #ff7a52;
+  position: absolute;
+  top: 500px;
+  color: white;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  height: 35px;
+  width: 380px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding-left: 6px;
+  left: 2px;
+  cursor: pointer;
+}
+
+.weixin {
+  margin: 0 auto;
+  position: absolute;
+  position: relative;
+  padding-left: 13px;
+  top: 551px;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  height: 35px;
+  width: 372px;
+  font-weight: 600;
+  border-radius: 20px;
+  overflow: hidden;
+  border: solid 1px rgb(179 169 169);
+}
+
+
+.weixin img {
+  position: absolute;
+  transform: scale(0.1);
+  top: -182px;
+  left: -51px;
+}
+
+.agree {
+  word-wrap: break-word;
+  font-size: 10px;
+  position: absolute;
+  top: 670px;
+}
+
+.other {
+  margin: 0 auto;
+  position: absolute;
+  position: relative;
+  padding-left: 6px;
+  top: 568px;
+  font-size: 15px;
+  line-height: 35px;
+  text-align: center;
+  height: 35px;
+  width: 380px;
+  font-weight: 600;
+  border-radius: 20px;
+  overflow: hidden;
+  border: solid 1px rgb(179 169 169)
+}
+
+.other1,
+.other2 {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  position: relative;
+  padding-left: 6px;
+  top: 530px;
+  font-size: 15px;
+  line-height: 35px;
+  height: 35px;
+  width: 380px;
+  font-weight: 600;
+  border-radius: 20px;
+  overflow: hidden;
+  border: solid 1px rgb(179 169 169)
+}
+
+.other2 {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  position: relative;
+  padding-left: 6px;
+  top: 545px;
+  font-size: 15px;
+  line-height: 35px;
+  height: 35px;
+  width: 380px;
+  font-weight: 600;
+  border-radius: 20px;
+  overflow: hidden;
+  border: solid 1px rgb(179 169 169)
+}
+
+button {
+  top: 640px;
+  left: 45px;
+  height: 30px;
+  width: 300px;
+  border-radius: 30px;
+  border: aliceblue;
+  color: white;
+  background-color: #d53232;
+}

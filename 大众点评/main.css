@@ -1,0 +1,187 @@
+.main {
+  display: none;
+  overflow: hidden;
+}
+
+.tag {
+  margin-bottom: 20px;
+  background-color: palegoldenrod;
+  height: 30px;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 30px;
+}
+
+.tag span {
+  color: rgb(110, 110, 110);
+}
+
+.tag .tagred {
+  transform: translate(-124px, 28px);
+  width: 40px;
+  height: 2px;
+  background-color: rgb(235, 74, 74);
+  transition: all 0.5s;
+}
+
+.tag .tagactive {
+  color: black;
+  font-size: 20px;
+}
+
+.note {
+  display: none;
+}
+
+.address {
+  display: none;
+}
+
+.tag-content {
+  padding: 0px 0px;
+}
+
+.active1 {
+  display: block;
+  display: flex;
+}
+
+.search {
+  display: inline-block;
+  height: 30px;
+  width: 380px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 2px solid rgb(223, 68, 11);
+}
+
+.searchback {
+  display: none;
+  width: 20px;
+  height: 30px;
+}
+
+.tag2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.tag2 div {
+  display: inline-block;
+  margin-top: 20px;
+  height: 30px;
+  width: 700px;
+  transform: translateX(0px);
+  overflow: hidden;
+
+}
+
+.tag2 span {
+  line-height: 30px;
+  font-size: 16px;
+  margin: 0 10px;
+  color: rgb(110, 110, 110);
+}
+
+.tag2 .tag2active {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+
+.tag2 .up {
+  width: 34px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 23px;
+  left: 357px;
+  display: inline-block;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 200;
+  margin: 4px 0;
+}
+
+.black {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .6;
+  inline-size: 13;
+}
+
+.more {
+  width: 390px;
+  margin: 0 auto;
+  transform: translateY(-813px);
+  background-color: white;
+  height: 230px;
+  display: none;
+  z-index: 12;
+}
+
+.more1 {
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.more1 :nth-child(1) {
+  display: block;
+  width: 390px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.more2 :nth-child(1) {
+  display: block;
+  width: 390px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.more2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 130px;
+}
+
+.more1 span {
+  font-size: 12px;
+  width: 55px;
+  height: 35px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgb(110, 110, 110);
+  line-height: 35px;
+  text-align: center;
+}
+
+.more2 span {
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  width: 55px;
+  height: 35px;
+  margin: 0 10px;
+  border-radius: 20px;
+  background-color: rgb(110, 110, 110);
+}
+
+.moreactive {
+  color: rgb(238, 35, 35);
+  background-color: #ff8e8e;
+}
+
+.huati {
+  width: 100px;
+  height: 100px;
+
+}
+
+.detail {
+  display: none;
+
+}

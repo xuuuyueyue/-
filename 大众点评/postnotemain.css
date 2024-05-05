@@ -1,0 +1,108 @@
+.deeppost {
+  display: none;
+}
+
+.deeppost1 {
+  position: relative;
+  line-height: 30px;
+  height: 30px;
+}
+
+.deeppost1 :nth-child(1) {
+  position: absolute;
+  left: 2%;
+}
+
+.deeppost1 :nth-child(2) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.deeppost1 :nth-child(3) {
+  position: absolute;
+  width: 42px;
+  left: 90%;
+}
+
+.deeppost2 {
+  height: 100px;
+  background-color: pink;
+}
+
+.deeppost3 {
+  margin: 0px 7px;
+  display: flex;
+  border-bottom: #e4e4e4 1px solid;
+}
+
+
+.deeppost31 {
+  width: 350px;
+  outline: none;
+  height: 40px;
+  border: none;
+}
+
+.deeppost3 span {
+  color: #959b99;
+  width: 47px;
+  FONT-SIZE: 11px;
+  line-height: 48px;
+}
+
+.deeppost41 {
+  width: 386px;
+  outline: none;
+  border: none;
+}
+
+.deeppost5 {
+  position: absolute;
+  top: 52%;
+  width: 375px;
+  height: 42px;
+  display: flex;
+  justify-content: left;
+  border-bottom: #e4e4e4 1px solid;
+  margin: 0 7px;
+
+}
+
+.deeppost5 span {
+  padding: 3px 8px;
+  height: 20px;
+  margin: 0 4px;
+  font-size: 13px;
+  background-color: #e3e3e3;
+  border-radius: 20px;
+}
+
+.deeppost8 {
+  bottom: 2%;
+  height: 30px;
+  width: 380px;
+  font-size: 13px;
+  position: fixed;
+  padding: 0 43px;
+}
+
+.deeppost8 span {
+  position: absolute;
+  top: 20%;
+  left: 0.5%;
+  line-height: 30px;
+  height: 30px;
+  width: 100px;
+}
+
+.other3 {
+  position: absolute;
+  display: none;
+  color: white;
+  width: 292px;
+  padding: 0 20px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+}
